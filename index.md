@@ -1,14 +1,8 @@
 ---
 layout: default
-title: Aural
+title: Aural x ARIA-Ψ
 ---
-## TFG
-
-
-
-## ARIApsy
-
-Towards precision psychiatry in generalized anxiety disorder.
+## Towards precision psychiatry in generalized anxiety disorder.
 
 <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 8px;">
   <iframe

@@ -19,23 +19,35 @@ body {
   padding: 2rem 0 3rem;
 }
 
-header,
-section,
+.content-card,
+footer {
+  background: rgba(255, 255, 255, 0.82);
+  border-radius: 18px;
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(4px);
+  padding: 1.5rem;
+}
+
+.content-card,
+footer {
+  margin-top: 1.5rem;
+}
+
+.content-card header,
+.content-card section,
 footer {
   float: none;
   position: static;
   width: auto;
   margin: 0;
-  background: rgba(255, 255, 255, 0.82);
-  border-radius: 18px;
-  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.08);
-  backdrop-filter: blur(8px);
-  padding: 1.5rem;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+  padding: 0;
 }
 
-header,
-section {
-  margin-top: 1.5rem;
+.content-card section {
+  margin-top: 1.75rem;
 }
 
 header img {
@@ -72,8 +84,7 @@ footer {
     padding: 1rem 0 2rem;
   }
 
-  header,
-  section,
+  .content-card,
   footer {
     margin-top: 1rem;
     padding: 1rem;
