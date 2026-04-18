@@ -1,0 +1,81 @@
+---
+---
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+@import "{{ site.theme }}";
+
+body {
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.82)),
+    url("/images/ARIAheader.png") center top / cover no-repeat fixed;
+}
+
+.wrapper {
+  width: min(920px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 2rem 0 3rem;
+}
+
+header,
+section,
+footer {
+  float: none;
+  position: static;
+  width: auto;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.82);
+  border-radius: 18px;
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(8px);
+  padding: 1.5rem;
+}
+
+header,
+section {
+  margin-top: 1.5rem;
+}
+
+header img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+select,
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
+footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 960px) {
+  body {
+    background-attachment: scroll;
+  }
+
+  .wrapper {
+    width: min(100% - 1rem, 920px);
+    padding: 1rem 0 2rem;
+  }
+
+  header,
+  section,
+  footer {
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+}
